@@ -1,0 +1,8 @@
+server:
+  port: 8087
+  read_timeout: 5s
+  write_timeout: 5s
+
+database:
+  dsn: "host=localhost user=admin password=password dbname=master port=5432 sslmode=disable TimeZone=UTC"
+
