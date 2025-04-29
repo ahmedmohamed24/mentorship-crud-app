@@ -10,9 +10,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type Server struct {
-}
-
 func NewServer(cfg *config.Config) (*http.Server, error) {
 	db, err := db.NewDBClient(cfg)
 	if err != nil {
